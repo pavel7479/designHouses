@@ -1,0 +1,71 @@
+  <div class="col-12">
+                <label for="address2" class="form-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Адрес 2 </font></font><span class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">(необязательно)</font></font></span></label>
+                <input type="text" class="form-control" id="address2" placeholder="Квартира или люкс">
+            </div>
+
+    <h4 class="mb-3"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Оплата</font></font></h4>
+
+        <div class="my-3">
+            <div class="form-check">
+                <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked="" required="">
+                <label class="form-check-label" for="credit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Кредитная карта</font></font></label>
+            </div>
+            <div class="form-check">
+                <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required="">
+                <label class="form-check-label" for="debit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Дебетовая карточка</font></font></label>
+            </div>
+            <div class="form-check">
+                <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required="">
+                <label class="form-check-label" for="paypal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PayPal</font></font></label>
+            </div>
+        </div>
+
+
+
+        <div class="row gy-3">
+            <div class="col-md-6">
+                <label for="cc-name" class="form-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Имя на карте</font></font></label>
+                <input type="text" class="form-control" id="cc-name" placeholder="" required="">
+                <small class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Полное имя, как показано на карточке</font></font></small>
+                <div class="invalid-feedback">
+                    Name on card is required
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <label for="cc-number" class="form-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Номер кредитной карты</font></font></label>
+                <input type="text" class="form-control" id="cc-number" placeholder="" required="">
+                <div class="invalid-feedback">
+                    Credit card number is required
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <label for="cc-expiration" class="form-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Срок действия</font></font></label>
+                <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
+                <div class="invalid-feedback">
+                    Expiration date required
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <label for="cc-cvv" class="form-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CVV</font></font></label>
+                <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
+                <div class="invalid-feedback">
+                    Security code required
+                </div>
+            </div>
+             </div>
+
+
+
+<div class="col-12">
+                <label for="username" class="form-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Имя пользователя</font></font></label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@</font></font></span>
+                    <input type="text" class="form-control" id="username" placeholder="Имя пользователя" required="">
+                    <div class="invalid-feedback">
+                        Your username is required.
+                    </div>
+                </div>
+            </div>
